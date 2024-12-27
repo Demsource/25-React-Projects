@@ -22,7 +22,6 @@ const Accordion = () => {
     }
 
     setMultiple(copyMultiple);
-    console.log(copyMultiple);
   }
 
   return (

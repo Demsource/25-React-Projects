@@ -42,7 +42,7 @@ const Accordion = () => {
                 }
               >
                 <h3>{item.question}</h3>
-                <span>+</span>
+                <span>{selected === item.id || multiple.indexOf(item.id) !== -1 ? "-" : "+"}</span>
               </div>
               {enableMultiSelection
                 ? multiple.indexOf(item.id) !== -1 && (

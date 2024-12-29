@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import RandomColor from "./conponents/random-color/RandomColor";
+import RandomColor from "./components/random-color/RandomColor";
 
 function App() {
   const [count, setCount] = useState(0);

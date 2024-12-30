@@ -18,7 +18,9 @@ const LoadMoreData = () => {
       const result = await response.json();
 
       if (result?.products?.length) {
-        setProducts((prevData) => [...prevData, ...result.products]);
+        setProducts((prevData) =>
+          count === 0 ? [...result.products] : [...prevData, ...result.products]
+        );
         setLoading(false);
       }
     } catch (error) {

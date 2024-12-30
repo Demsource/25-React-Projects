@@ -45,8 +45,8 @@ const LoadMoreData = () => {
       <div className="product-container">
         {products &&
           products.length &&
-          products.map((product, index) => (
-            <div className="product" key={index}>
+          products.map((product) => (
+            <div className="product" key={product.id}>
               <img src={product.thumbnail} alt={product.title} />
               <p>{product.title}</p>
             </div>

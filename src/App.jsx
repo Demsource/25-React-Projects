@@ -10,7 +10,7 @@ import QRCodeGenerator from "./components/qr-code-generator/QRCodeGenerator";
 import ThemeLightAndDarkMode from "./components/theme-light-and-dark-mode/ThemeLightAndDarkMode";
 import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 import TabsParent from "./components/tabs/TabsParent";
-import ModalPopupParent from "./components/ModalPopupParent";
+import ModalPopupParent from "./components/modal-popup/ModalPopupParent";
 import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
 import SearchAutocomplete from "./components/search-autocomplete-with-api/SearchAutocomplete";
 import TicTacToe from "./components/tic-tac-toe/TicTacToe";

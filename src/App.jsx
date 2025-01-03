@@ -13,7 +13,7 @@ import TabsParent from "./components/tabs/TabsParent";
 import ModalPopupParent from "./components/ModalPopupParent";
 import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
 import SearchAutocomplete from "./components/search-autocomplete-with-api/SearchAutocomplete";
-import TicTacToe from "./components/Tic Tac Toe/tic-tac-toe/TicTacToe";
+import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 
 function App() {
   return (

@@ -1,6 +1,5 @@
 import "./App.css";
 import Accordion from "./components/accordion/Accordion";
-import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
 import RandomColor from "./components/random-color/RandomColor";
 import StarRating from "./components/star-rating/StarRating";
 import ImageSlider from "./components/image-slider/ImageSlider";
@@ -8,6 +7,8 @@ import LoadMoreData from "./components/load-more-data/LoadMoreData";
 import MenuTreeViewRecursiveNavigation from "./components/menu-tree-view-recursive-navigation/MenuTreeViewRecursiveNavigation";
 import { sideMenu } from "./components/menu-tree-view-recursive-navigation/data";
 import QRCodeGenerator from "./components/qr-code-generator/QRCodeGenerator";
+import ThemeLightAndDarkMode from "./components/theme-light-and-dark-mode/ThemeLightAndDarkMode";
+import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <LoadMoreData />
       <MenuTreeViewRecursiveNavigation sideMenu={sideMenu} />
       <QRCodeGenerator />
+      <ThemeLightAndDarkMode />
       <GithubProfileFinder />
     </div>
   );

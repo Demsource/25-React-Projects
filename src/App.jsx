@@ -1,5 +1,5 @@
 import "./App.css";
-import ModalPopupParent from "./components/ModalPopupParent";
+import ModalPopupParent from "./components/modal-popup/ModalPopupParent";
 
 function App() {
   return (

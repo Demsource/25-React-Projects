@@ -1,0 +1,30 @@
+.load-more-data {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.load-more-data .product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.load-more-data .product-container .product {
+  padding: 20px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.load-more-data .product-container .product img {
+  width: 200px;
+  height: 200px;
+}
+
+.load-more-data .button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

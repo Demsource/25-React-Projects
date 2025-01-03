@@ -12,6 +12,7 @@ import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 import TabsParent from "./components/tabs/TabsParent";
 import ModalPopupParent from "./components/ModalPopupParent";
 import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
+import SearchAutocomplete from "./components/search-autocomplete-with-api/SearchAutocomplete";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <TabsParent />
       <ModalPopupParent />
       <GithubProfileFinder />
+      <SearchAutocomplete />
     </div>
   );
 }

@@ -7,7 +7,7 @@ import ImageSlider from "./components/image-slider/ImageSlider";
 import LoadMoreData from "./components/load-more-data/LoadMoreData";
 import MenuTreeViewRecursiveNavigation from "./components/menu-tree-view-recursive-navigation/MenuTreeViewRecursiveNavigation";
 import { sideMenu } from "./components/menu-tree-view-recursive-navigation/data";
-import QRCodeGenerator from "./components/QRCodeGenerator";
+import QRCodeGenerator from "./components/qr-code-generator/QRCodeGenerator";
 
 function App() {
   return (

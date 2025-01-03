@@ -5,8 +5,8 @@ import RandomColor from "./components/random-color/RandomColor";
 import StarRating from "./components/star-rating/StarRating";
 import ImageSlider from "./components/image-slider/ImageSlider";
 import LoadMoreData from "./components/load-more-data/LoadMoreData";
-import { sideMenu } from "./components/data";
-import MenuTreeViewRecursiveNavigation from "./components/MenuTreeViewRecursiveNavigation";
+import MenuTreeViewRecursiveNavigation from "./components/menu-tree-view-recursive-navigation/MenuTreeViewRecursiveNavigation";
+import { sideMenu } from "./components/menu-tree-view-recursive-navigation/data";
 
 function App() {
   return (

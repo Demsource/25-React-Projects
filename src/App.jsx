@@ -1,6 +1,6 @@
 import "./App.css";
-import { sideMenu } from "./components/data";
-import MenuTreeViewRecursiveNavigation from "./components/MenuTreeViewRecursiveNavigation";
+import { sideMenu } from "./components/menu-tree-view-recursive-navigation/data";
+import MenuTreeViewRecursiveNavigation from "./components/menu-tree-view-recursive-navigation/MenuTreeViewRecursiveNavigation";
 
 function App() {
   return (

@@ -8,6 +8,7 @@ import MenuTreeViewRecursiveNavigation from "./components/menu-tree-view-recursi
 import { sideMenu } from "./components/menu-tree-view-recursive-navigation/data";
 import QRCodeGenerator from "./components/qr-code-generator/QRCodeGenerator";
 import ThemeLightAndDarkMode from "./components/theme-light-and-dark-mode/ThemeLightAndDarkMode";
+import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <MenuTreeViewRecursiveNavigation sideMenu={sideMenu} />
       <QRCodeGenerator />
       <ThemeLightAndDarkMode />
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
       <GithubProfileFinder />
     </div>
   );

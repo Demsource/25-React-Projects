@@ -7,6 +7,7 @@ import ImageSlider from "./components/image-slider/ImageSlider";
 import LoadMoreData from "./components/load-more-data/LoadMoreData";
 import MenuTreeViewRecursiveNavigation from "./components/menu-tree-view-recursive-navigation/MenuTreeViewRecursiveNavigation";
 import { sideMenu } from "./components/menu-tree-view-recursive-navigation/data";
+import QRCodeGenerator from "./components/QRCodeGenerator";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ImageSlider url="https://picsum.photos/v2/list" page="1" limit="10" />
       <LoadMoreData />
       <MenuTreeViewRecursiveNavigation sideMenu={sideMenu} />
+      <QRCodeGenerator />
       <GithubProfileFinder />
     </div>
   );

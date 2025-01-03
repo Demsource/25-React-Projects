@@ -10,6 +10,7 @@ import QRCodeGenerator from "./components/qr-code-generator/QRCodeGenerator";
 import ThemeLightAndDarkMode from "./components/theme-light-and-dark-mode/ThemeLightAndDarkMode";
 import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 import TabsParent from "./components/tabs/TabsParent";
+import ModalPopupParent from "./components/ModalPopupParent";
 import GithubProfileFinder from "./components/github-profile-finder/GithubProfileFinder";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <ThemeLightAndDarkMode />
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
       <TabsParent />
+      <ModalPopupParent />
       <GithubProfileFinder />
     </div>
   );

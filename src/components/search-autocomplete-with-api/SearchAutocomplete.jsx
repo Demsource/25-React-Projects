@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Suggestions from "./Suggestions";
+import "./SearchAutocomplete.css"
 
 const SearchAutocomplete = () => {
   const [users, setUsers] = useState([]);

@@ -9,8 +9,6 @@ const ThemeLightAndDarkMode = () => {
     setTheme(theme === "light" ? "dark" : "light");
   }
 
-  console.log(theme);
-
   return (
     <div className="theme-light-and-dark-mode" data-theme={theme}>
       <div className="container">

@@ -1,5 +1,5 @@
 import "./App.css";
-import UseOnclickOutsideTest from "./components/useOnclickOutside/UseOnclickOutsideTest";
+import UseOnclickOutsideTest from "./components/use-onclick-outside/UseOnclickOutsideTest";
 
 function App() {
   return (

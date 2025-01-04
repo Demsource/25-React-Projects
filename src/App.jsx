@@ -17,7 +17,7 @@ import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 import FeatureFlags from "./components/feature-flags/FeatureFlags";
 import FeatureFlagsGlobalState from "./components/feature-flags/context/FeatureFlagsContext";
 import UseFetchHookTest from "./components/use-fetch-custom-hook/UseFetchHookTest";
-import UseOnclickOutsideTest from "./components/useOnclickOutside/UseOnclickOutsideTest";
+import UseOnclickOutsideTest from "./components/use-onclick-outside/UseOnclickOutsideTest";
 import UseResponsiveTest from "./components/use-responsive-custom-hook/UseResponsiveTest";
 
 function App() {

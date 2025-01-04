@@ -6,7 +6,7 @@ const UseResponsiveTest = () => {
   const { width, height } = windowSize;
 
   return (
-    <div>
+    <div style={{ textAlign: "center" }}>
       <h1>Use Window Resize / Use Responsive Hook</h1>
       <p>Width is {width}</p>
       <p>Height is {height}</p>

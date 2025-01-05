@@ -21,6 +21,7 @@ import UseOnclickOutsideTest from "./components/use-onclick-outside/UseOnclickOu
 import UseResponsiveTest from "./components/use-responsive-custom-hook/UseResponsiveTest";
 import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom/ScrollToTopAndBottom";
 import ScrollToSection from "./components/scroll-to-section/ScrollToSection";
+import Weather from "./components/weather-app/Weather";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
       <UseResponsiveTest />
       <ScrollToTopAndBottom />
       <ScrollToSection />
+      <Weather />
     </div>
   );
 }

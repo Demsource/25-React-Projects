@@ -89,5 +89,4 @@ body {
 .weather .weather-info .column {
   display: flex;
   align-items: center;
-  line-height: 1px;
 }

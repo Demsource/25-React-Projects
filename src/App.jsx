@@ -1,5 +1,4 @@
 import "./App.css";
-<<<<<<< HEAD
 import Accordion from "./components/accordion/Accordion";
 import RandomColor from "./components/random-color/RandomColor";
 import StarRating from "./components/star-rating/StarRating";
@@ -23,14 +22,11 @@ import UseResponsiveTest from "./components/use-responsive-custom-hook/UseRespon
 import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom/ScrollToTopAndBottom";
 import ScrollToSection from "./components/scroll-to-section/ScrollToSection";
 import Weather from "./components/weather-app/Weather";
-=======
 import FoodRecipeApp from "./components/food-recipe-app/FoodRecipeApp";
->>>>>>> food-recipe-app
 
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
       <Accordion />
       <RandomColor />
       <StarRating noOfStars={10} />
@@ -54,9 +50,7 @@ function App() {
       <ScrollToTopAndBottom />
       <ScrollToSection />
       <Weather />
-=======
       <FoodRecipeApp />
->>>>>>> food-recipe-app
     </div>
   );
 }

@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <nav className="flex justify-between items-center py-8 container mx-auto flex-col lg:flex-row gap-5 lg:gap-0">
       <h2 className="text-2xl font-semibold">
-        <NavLink to={"/"}>Food Recipe</NavLink>
+        <NavLink className="text-black" to={"/"}>Food Recipe</NavLink>
       </h2>
       <form action="#" onSubmit={handleSubmit}>
         <input

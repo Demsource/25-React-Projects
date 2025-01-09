@@ -23,6 +23,7 @@ import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom/ScrollTo
 import ScrollToSection from "./components/scroll-to-section/ScrollToSection";
 import Weather from "./components/weather-app/Weather";
 import FoodRecipeApp from "./components/food-recipe-app/FoodRecipeApp";
+import ShoppingCartApp from "./components/shopping-cart-app/ShoppingCartApp";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
       <ScrollToSection />
       <Weather />
       <FoodRecipeApp />
+    <ShoppingCartApp />
     </div>
   );
 }

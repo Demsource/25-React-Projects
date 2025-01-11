@@ -24,6 +24,7 @@ import ScrollToSection from "./components/scroll-to-section/ScrollToSection";
 import Weather from "./components/weather-app/Weather";
 import FoodRecipeApp from "./components/food-recipe-app/FoodRecipeApp";
 import ShoppingCartApp from "./components/shopping-cart-app/ShoppingCartApp";
+import ExpenseTrackerApp from "./components/expense-tracker-app/ExpenseTrackerApp";
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
       <ScrollToSection />
       <Weather />
       <FoodRecipeApp />
-    <ShoppingCartApp />
+      <ShoppingCartApp />
+      <ExpenseTrackerApp />
     </div>
   );
 }

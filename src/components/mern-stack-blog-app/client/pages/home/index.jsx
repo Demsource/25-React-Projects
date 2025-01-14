@@ -58,8 +58,16 @@ const Home = () => {
               <div key={blog._id}>
                 <p>{blog.title}</p>
                 <p>{blog.description}</p>
-                <FaEdit onClick={() => handleEdit(blog)} size={30} />
-                <FaTrash onClick={() => handleDeleteBlog(blog._id)} size={30} />
+                <FaEdit
+                  style={{ cursor: "pointer" }}
+                  onClick={() => handleEdit(blog)}
+                  size={30}
+                />
+                <FaTrash
+                  style={{ cursor: "pointer", marginLeft: "10px" }}
+                  onClick={() => handleDeleteBlog(blog._id)}
+                  size={30}
+                />
               </div>
             ))
           ) : (

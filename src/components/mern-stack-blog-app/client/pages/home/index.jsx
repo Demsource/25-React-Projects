@@ -64,7 +64,7 @@ const Home = () => {
                   size={30}
                 />
                 <FaTrash
-                  style={{ cursor: "pointer", marginLeft: "10px" }}
+                  style={{ cursor: "pointer" }}
                   onClick={() => handleDeleteBlog(blog._id)}
                   size={30}
                 />

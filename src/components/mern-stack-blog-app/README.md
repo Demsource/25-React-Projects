@@ -5,4 +5,4 @@
 # Second step
 Make sure MongoDB database is connected via API Key
 - Run `npm i` in the **"server"** directory
-- Run npm start
+- Run `npm start`

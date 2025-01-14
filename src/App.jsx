@@ -1,4 +1,5 @@
 import "./App.css";
+<<<<<<< HEAD
 import Accordion from "./components/accordion/Accordion";
 import RandomColor from "./components/random-color/RandomColor";
 import StarRating from "./components/star-rating/StarRating";
@@ -25,10 +26,14 @@ import Weather from "./components/weather-app/Weather";
 import FoodRecipeApp from "./components/food-recipe-app/FoodRecipeApp";
 import ShoppingCartApp from "./components/shopping-cart-app/ShoppingCartApp";
 import ExpenseTrackerApp from "./components/expense-tracker-app/ExpenseTrackerApp";
+=======
+import MernStackBlogApp from "./components/mern-stack-blog-app/client/MernStackBlogApp";
+>>>>>>> mern-stack-blog-app
 
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
       <Accordion />
       <RandomColor />
       <StarRating noOfStars={10} />
@@ -55,6 +60,9 @@ function App() {
       <FoodRecipeApp />
       <ShoppingCartApp />
       <ExpenseTrackerApp />
+=======
+      <MernStackBlogApp />
+>>>>>>> mern-stack-blog-app
     </div>
   );
 }
